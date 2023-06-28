@@ -146,7 +146,7 @@ class BinanceWebSocketApiRestclient(object):
                                          socks5_proxy_user=self.manager.socks5_proxy_user,
                                          socks5_proxy_pass=self.manager.socks5_proxy_pass,
                                          warn_on_update=self.manager.warn_on_update,
-                                         disable_colorama=self.manager.disable_colorama,)
+                                         disable_colorama=False)
             if self.manager.exchange == "binance.com-margin" or \
                     self.manager.exchange == "binance.com-margin-testnet":
                 try:
@@ -245,7 +245,7 @@ class BinanceWebSocketApiRestclient(object):
                                          socks5_proxy_user=self.manager.socks5_proxy_user,
                                          socks5_proxy_pass=self.manager.socks5_proxy_pass,
                                          warn_on_update=self.manager.warn_on_update,
-                                         disable_colorama=self.manager.disable_colorama,)
+                                         disable_colorama=False)
             if self.manager.exchange == "binance.com-margin" or \
                     self.manager.exchange == "binance.com-margin-testnet":
                 if self.manager.restful_base_uri is not None:
@@ -312,7 +312,7 @@ class BinanceWebSocketApiRestclient(object):
                                          socks5_proxy_user=self.manager.socks5_proxy_user,
                                          socks5_proxy_pass=self.manager.socks5_proxy_pass,
                                          warn_on_update=self.manager.warn_on_update,
-                                         disable_colorama=self.manager.disable_colorama,)
+                                         disable_colorama=False)
             if self.manager.exchange == "binance.com-margin" or \
                     self.manager.exchange == "binance.com-margin-testnet":
                 if self.manager.restful_base_uri is not None:
